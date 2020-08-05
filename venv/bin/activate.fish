@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/constant.vdw/Documents/github_automation/venv"
+set -gx VIRTUAL_ENV "/Users/constant.vdw/Documents/Projects/git_hub_automation/automate_github/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

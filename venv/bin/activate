@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/constant.vdw/Documents/github_automation/venv"
+VIRTUAL_ENV="/Users/constant.vdw/Documents/Projects/git_hub_automation/automate_github/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
