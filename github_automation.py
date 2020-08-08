@@ -3,7 +3,7 @@ from githubtools import *
 
 
 
-access_token = '1851d11c911bcedf883e89e38d69edfaaa4673c1'
+access_token = ''
 
 login = Github(access_token)
 
