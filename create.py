@@ -42,15 +42,16 @@ def create_git_repo():
   driver.find_element_by_id('login_field')\
     .click()
   driver.find_element_by_id('login_field')\
-    .send_keys('the3bosses@gmail.com')
+    .send_keys('#############')
   driver.find_element_by_id('password').click()
-  driver.find_element_by_id('password').send_keys('Danica@2022')
+  driver.find_element_by_id('password').send_keys('#########')
   driver.find_element_by_class_name('btn-primary').click()
   sleep(3)
   driver.find_element_by_xpath('/html/body/div[4]/div/aside[1]/div[2]/div[1]/div/h2/a').click()
   driver.find_element_by_id('repository_name').send_keys(repo_name)
   sleep(5)
   driver.find_element_by_xpath('/html/body/div[4]/main/div/form/div[4]/button').click()
+  driver.find_element_by_xpath('/html/body/div[4]/div/main/div[2]/div/git-clone-help/div[1]/div/div[3]/div/form[2]/button').click()
   git_uri = driver.find_element_by_id('empty-setup-clone-url').get_attribute('value')
   print(git_uri)
   os.system(f'git clone {git_uri}')
